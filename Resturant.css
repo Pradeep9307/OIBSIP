@@ -1,160 +1,49 @@
-*{
-	margin: 0;
-	padding: 0;
-}
-body{
-	margin: 0;
-	font-family: Arial, "forte";
-	font-size: 17px;
-	color: white;
-	line-height: 1.6;
-
-}
-#heading{
-	background-image: url('./img/welcome.jpg');
-	height: 100vh;
-	background-size: cover;
-	background-position: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	padding: 0 20px;
-
-}
-#heading h1{
-	font-size: 120px;
-	font-family: 'AR BERKLEY';
-	color: #29133c;
-
-}
-#heading p{
-	font-size: 50px;
-	margin-top: 30px;
-	font-family: 'AR BLANCA';
-	color: darkslategrey;
-}
-#heading nav{
-	margin-top: 61px;
-}
-#heading nav .button{
-	font-family: 'AR CHRISTY';
-	font-size: 25px;
-	text-decoration: none;
-	color: #29133c;
-	border: #1c122e 1px solid;
-	padding: 10px 20px;
-	border-radius: 100%;
-	text-align: left;
-
-}
-#heading nav .button1{
-	font-family: 'AR CHRISTY';
-	font-size: 25px;
-	text-decoration: none;
-	color: #29133c;
-	border: #1c122e 1px solid;
-	padding: 10px 20px;
-	border-radius: 100%;
-	text-align: center;
-
-}
-#heading nav .button2{
-	font-family: 'AR CHRISTY';
-	font-size: 25px;
-	text-decoration: none;
-	color: #29133c;
-	border: #1c122e 1px solid;
-	padding: 10px 20px;
-	border-radius: 100%;
-	text-align: right;
-
-}
-#part1{
-	background-image: url('./img/review.jpg');
-    height: 100vh;
-	background-size: cover;
-	background-position: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	padding: 0 20px;
-	margin-top: 50px;
-}
-#part1 h1{
-	font-family: 'AR BLANCA';
-	font-size: 100px;
-	color: #600e0e;
-}
-#part1 p{
-	font-family: 'AR CENA';
-	font-size: 35px;
-	color: #17ab17;
-	margin-top: 20px;
-}
-#part1 p em{
-	font-family: 'AR CHRISTY';
-	font-size: 75px;
-	color: #17ab17;
-	margin-top: 20px;
-}
-#part2{
-	background-image: url('./img/menu.jpg');
-    height: 100vh;
-	background-size: cover;
-	background-position: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	padding: 0 20px;
-	margin-top: 50px;
-
-}
-
-#part2 h1{
-	font-family: 'Mistral';
-	font-size: 105px;
-	color: #a31d48;
-	text-align: center;
-}
-#part2 ul{
-	font-family: 'Brush Script MT';
-	font-size: 45px;
-	color: #f73900;
-	text-align: center;
-	margin-top: 20px;
-
-}
-#part3{
-	background-image: url('./img/img.jpg');
-    height: 100vh;
-	background-size: cover;
-	background-position: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	padding: 0 20px;
-	margin-top: 50px;
-
-}
-#part3 h1{
-	font-family: 'AR BERKLEY';
-	color: #8EF9F3;
-	text-align: center;
-	font-size: 95px;
-}
-#part3 h3{
-	font-family: 'AR BERKLEY';
-	color: #2A2A72;
-	text-align: center;
-	font-size: 55px;
-}
-#part3 p{
-	font-family: 'AR BERKLEY';
-	color: #34344A;
-	text-align: center;
-	font-size: 35px;
-}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>restaurant</title>
+	<link rel="stylesheet" type="text/css" href="restaurant.css">
+<body>
+	<header id="heading">
+		<h1 class="header"><u>Hotel Delicious</u></h1>
+		<p>To enjoy the best cuisines arround the world</p>
+		<nav>
+			<a href="#part1" class="button">About</a>
+			<a href="#part2" class="button1">Menu</a>
+			<a href="#part3" class="button2">Review</a>
+		</nav>
+		
+	</header>
+	<section id="part1">
+	<h1><u>About</u></h1>
+	<p> <em>O</em> ne of the best restaurants to enjoy your meal prepared by our talented chef<br>
+		Providing you with the safest and tastiest food since 2003<br>
+		We consider hygiene as our top priority as you are most important to us<br>
+		Buffet with live counter and open kitchen also available for your'e satisfaction<br>
+		Enjoy food at it best with the class and taste only at Hotel Delecious 
+	 </p>
+	
+	</section>
+	<section id="part2">
+		<h1><u>Menu</u></h1>
+		<ul>
+			<li>Milkshakes</li>
+			<li>Cold-Drinks</li>
+			<li>Indian</li>
+			<li>Chinese</li>
+			<li>Italian</li>
+			<li>French</li>
+		</ul>
+	    
+	</section>
+	<section id="part3">
+		<h1><u>Reviews</u></h1>
+		<h3>Mayur Tawade</h3>
+		<p>A pleasant experience. <br>Very helpful staff with proper hygiene and beautiful interior</p>
+		<h3>Anirudh Bora</h3>
+		<p>Tastiest food I have ever tasted. <br>Proper seating and hygiene arrangement for customers</p>
+    </section> 
+</body>
+</html>
